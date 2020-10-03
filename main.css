@@ -1,0 +1,28 @@
+button
+{
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    margin-top: 8vh;
+    cursor: pointer;
+}
+
+#container
+{
+    margin-top: 4vw;
+    background-color: aliceblue;
+    height: 12vw;
+    width: 96vw;
+    border: 0.4vw double grey;
+    border-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.ball
+{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+}
